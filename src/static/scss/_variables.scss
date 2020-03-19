@@ -1,0 +1,59 @@
+/************************
+*****Color variables***** 
+************************/
+// @import "../node_modules/bootstrap/scss/variables";
+/********* GAME ANALYTICS THEME ********/
+/* Color Theme Swatches in Hex */
+$Game-Analytics-website-1-hex: #977EF2;
+$Game-Analytics-website-2-hex: #2955D9;
+$Game-Analytics-website-3-hex: #0597F2;
+$Game-Analytics-website-4-hex: #F25C05;
+$Game-Analytics-website-5-hex: #F24C3D;
+
+/* Color Theme Swatches in RGBA */
+$Game-Analytics-website-1-rgba: rgba(151,125,242, 1);
+$Game-Analytics-website-2-rgba: rgba(41,85,216, 1);
+$Game-Analytics-website-3-rgba: rgba(4,151,242, 1);
+$Game-Analytics-website-4-rgba: rgba(242,91,4, 1);
+$Game-Analytics-website-5-rgba: rgba(242,75,60, 1);
+
+/* Color Theme Swatches in HSLA */
+$Game-Analytics-website-1-hsla: hsla(253, 82, 72, 1);
+$Game-Analytics-website-2-hsla: hsla(225, 69, 50, 1);
+$Game-Analytics-website-3-hsla: hsla(202, 96, 48, 1);
+$Game-Analytics-website-4-hsla: hsla(22, 96, 48, 1);
+$Game-Analytics-website-5-hsla: hsla(5, 87, 59, 1);
+/********* END GAME ANALYTICS THEME ********/
+
+/********* CLUE ORGANGE THEME ********/
+/* Color Theme Swatches in Hex */
+$clue-orange-1-hex: #5089A5;
+$clue-orange-2-hex: #B3E7F2;
+$clue-orange-3-hex: #D95032;
+$clue-orange-4-hex: #FBA481;
+$clue-orange-5-hex: #183446;
+
+/* Color Theme Swatches in RGBA */
+$clue-orange-1-rgba: rgba(80,137,165, 1);
+$clue-orange-2-rgba: rgba(179,231,242, 1);
+$clue-orange-3-rgba: rgba(217,80,50, 1);
+$clue-orange-4-rgba: rgba(251,164,129, 1);
+$clue-orange-5-rgba: rgba(24,52,70, 1);
+
+/* Color Theme Swatches in HSLA */
+$clue-orange-1-hsla: hsla(199, 34, 48, 1);
+$clue-orange-2-hsla: hsla(190, 70, 82, 1);
+$clue-orange-3-hsla: hsla(10, 68, 52, 1);
+$clue-orange-4-hsla: hsla(17, 93, 74, 1);
+$clue-orange-5-hsla: hsla(203, 48, 18, 1);
+/********* END CLUE ORANGE THEME ********/
+
+/* Overriden from bootstrap */
+$primary:      $Game-Analytics-website-1-hex;
+$secondary:    $Game-Analytics-website-3-hex;
+$info:         $Game-Analytics-website-2-hex;
+$warning:      $Game-Analytics-website-4-hex;
+$danger:       $Game-Analytics-website-5-hex;
+$white: #fefee2;
+$black: #383838;
+

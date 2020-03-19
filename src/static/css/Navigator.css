@@ -1,0 +1,7 @@
+.navigator {
+  justify-content: center; }
+  .navigator a {
+    width: unset; }
+
+.tab-content {
+  margin: 5vh 0; }

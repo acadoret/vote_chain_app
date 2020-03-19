@@ -1,0 +1,27 @@
+@import "_fonts";
+@import "_variables";
+
+#in-progress-votes,
+#closed-votes {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+}
+.no-vote,
+.loading-spinner {
+  text-align: center;
+  margin: auto;
+  padding-top: 10vh;
+}
+
+#in-progress-votes {
+  .card-link {
+    color: $black;
+    .card {
+        svg{
+            color: $danger;
+        }
+    }
+
+  }
+}

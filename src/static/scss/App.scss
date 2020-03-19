@@ -1,6 +1,59 @@
+@import "_variables";
+@import "../css/bootstrap-theme.min.css";
+@import "_fonts";
+@import "_layout";
 
+// html:not([data-scroll='0']){
+
+//   #header {
+//     .navbar-scrolled {
+//       position: fixed;
+//       top: 0;
+//       box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
+//       a, input {
+//         color: black;
+//         &.btn{
+//           color: white;
+//           &.btn-outline-light{
+//             border-color:#ced4da;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+#header {
+  .navbar-scrolled {
+    position: fixed;
+    top: 0;
+    box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
+    a, input {
+      color: black;
+      &.btn{
+        color: white;
+        &.btn-outline-light{
+          border-color:#ced4da;
+        }
+      }
+    }
+  }
+}
 .App {
   text-align: center;
+
+  .jumbo-header {
+    background: $primary;
+    height: 50vh;
+    margin-bottom: 0;
+    border-bottom: 3vh solid $secondary;
+  }
+
+  .main-content {
+    margin: 0;
+    padding: 0;
+    min-height: 50vh;
+    border-bottom: 1px solid #dee2e6;
+  }
 }
 
 .App-logo {
